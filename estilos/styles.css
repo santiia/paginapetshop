@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+#primerabarra{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: .5vw;
+}
+.primeraParte{
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    margin-left: 7.87rem;
+}
+.segundalista{
+    margin-right: 3.125rem;
+}
+.item2{
+    margin-right: 10px;
+}
+.nav-menu-item{
+    display: inline;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.nav-menu-list{
+    color: white;
+    text-align: right;
+}
+.listalogo{
+    margin-right: 3rem;
+}
+#primerbaner{
+    background-color: #F0A83E;
+    background-image: url(../img/logo.png);
+    height: 68px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.itemlogo{
+    margin-left: 0.9rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}   
+#cabecerados{
+    background-repeat: no-repeat;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.contenedorcabecera{
+    margin-right: 3rem;
+}
+.banertexto{
+    text-align: center ;
+    border-radius: 5px;
+}
+#botoncomer{
+    text-align: center;
+    color: white;
+}
+.botoncomederos{
+    background-color: orange;
+    color: white;
+    border: transparent;
+    padding: 1rem;
+}
+.textoblanco{
+    background-color: white;
+    padding: 11px;
+}
+.barra{
+    color: black;
+}
+#productos{
+    text-align: center;
+}
+#articulos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-content: space-between;
+}
+.articulosventa{
+    padding: 0.9rem;
+    background-color: #FBFAF6;
+    margin: 1rem;
+}
+.textcolor{
+    color: orange;
+    background-color: #FBFAF6;
+}
+#informacion{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#titulocontactanos{
+    color: #3C2313;
+    ;
+}
+#piedepagina{
+    background-color: #3C2313;
+    color: white;
+}
+.formulario{
+    color: white;
+    background-color: #3C2313;
+    display: inline-block;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.ultimoboton{
+    margin-bottom: 1.5rem;
+}
+#botonuno{
+    background-color: #8A8787;
+    color: white;
+    border: transparent;
+    border-radius: 15px;
+    height: 2.1rem;
+    width: 6.875rem;
+}
+#boton2{
+    color: white;
+    background-color: #F0A83E;
+    border: transparent;
+    border-radius: 15px;
+    width: 6.875rem;
+    height: 2.1rem;
+}
+#footer{
+    background-color: #F0A83E;
+    font-size: 1.2rem;
+}
+#contenedorfooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+}
+.formulario1{
+    border: transparent;
+    border-radius: 15px;
+    width: 16.93rem;
+    padding: 1rem;
+}
+#formulariodos{
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.descripcion, .textocolor{
+    background-color: #FBFAF6;
+    padding-top: 0px;
+}
+#footerformulario{
+    margin: .5rem;
+}
+.fuentescontacto{
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+}
+#textoderechos{
+    text-align: center;
+    background-color: #222222;
+}
+.icono{
+    object-fit: contain;
+}
+.descripcion1{
+    background-color: #3C2313;
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+    #primerabarra {
+        display: none;
+    }
+    #cabecerados {
+        background-repeat: no-repeat;
+        background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+        background-size: cover;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #botonuno {
+        background-color: #8A8787;
+        color: white;
+        border: transparent;
+        border-radius: 15px;
+        height: 2.1rem;
+        width: 13.875rem;
+    }
+    #boton2 {
+    color: white;
+    background-color: #F0A83E;
+    border: transparent;
+    border-radius: 15px;
+    width: 13.875rem;
+    height: 2.1rem;
+} 
+    #articulos{
+        display: flex;
+        text-align: center;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #contenedorfooter{
+        display: flex;
+        background-color: #F0A83E;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center
+    }
+    .fuentescontacto {
+        background-color: #3C2313;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
